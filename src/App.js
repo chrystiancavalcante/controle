@@ -1,8 +1,9 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import NavBar from './Ui/NavBar';
-import Home from './container/Home';
+import React, { Component } from 'react'
+import logo from './logo.svg'
+import './App.css'
+import NavBar from './Ui/NavBar'
+import Home from './container/Home'
+
 
 class App extends Component {
   render() {
@@ -10,10 +11,11 @@ class App extends Component {
     return (
       <div>
         <NavBar logo = {logo} />
-        < Home />
+       {this.props.children}
+      
       </div>
-    );
+    )
   }
-};
+}
 
-export default App;
+export default App

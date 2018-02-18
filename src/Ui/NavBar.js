@@ -1,23 +1,24 @@
 import React from 'react'
+import {Link} from 'react-router'
 
 const NavBar = (props) => {
     return (
 
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <a className="navbar-brand" href="">{props.logo}</a>
+        <Link to='/'className="navbar-brand">{props.logo}</Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul className="navbar-nav">
                     <li className="nav-item active">
-                        <a className="nav-link" href="">Painel <span className="sr-only">(current)</span></a>
+                    <Link to='/pedidos' className="nav-link">Pedidos</Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="">Vendas</a>
+                    <Link to='/vendas' className="nav-link">Vendas</Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="">Estoque</a>
+                    <Link to='/estoque' className="nav-link">Estoque</Link>
                     </li>
                     <li className="nav-item dropdown">
                         <a className="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

@@ -1,8 +1,25 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import './index.css'
+import App from './App'
+import Home from './container/Home'
+import vendas from './container/vendas'
+import pedidos from './container/pedidos'
+import estoque from './container/estoque'
+import registerServiceWorker from './registerServiceWorker'
+import { Router, Route, IndexRoute, hashHistory } from 'react-router'
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+
+
+ReactDOM.render(
+    <Router history={hashHistory}>
+        <Route path='/' component={App} >
+        <IndexRoute component={Home}/>
+            <Route path='/vendas' component={vendas} />
+            <Route path='/pedidos' component={pedidos} />
+            <Route path='/estoque' component={estoque} />
+        </Route>
+    </Router>
+    ,
+    document.getElementById('root'))
+registerServiceWorker()
