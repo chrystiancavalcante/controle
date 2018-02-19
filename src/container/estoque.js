@@ -4,7 +4,7 @@ export default class estoque extends Component {
 
     render(){
         return(
-          <h1>
+          <h1 class="text-center">
               Estoque
           </h1>
         )

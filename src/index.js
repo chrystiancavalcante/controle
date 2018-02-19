@@ -12,12 +12,12 @@ import { Router, Route, IndexRoute, hashHistory } from 'react-router'
 
 
 ReactDOM.render(
-    <Router history={hashHistory}>
-        <Route path='/' component={App} >
-        <IndexRoute component={Home}/>
-            <Route path='/vendas' component={vendas} />
-            <Route path='/pedidos' component={pedidos} />
-            <Route path='/estoque' component={estoque} />
+    <Router history= { hashHistory } >
+        <Route path='/' component= { App } >
+        <IndexRoute component= { Home } />
+            <Route path='/vendas' component= { vendas } />
+            <Route path='/pedidos' component= { pedidos } />
+            <Route path='/estoque' component= { estoque } />
         </Route>
     </Router>
     ,

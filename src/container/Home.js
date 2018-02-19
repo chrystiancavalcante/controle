@@ -20,9 +20,7 @@ export default class Home extends Component {
         action: () => hashHistory.push('/pedidos')
     }
     homeCard2Faturas = {
-        title: 'Total de Faturas',
-        text: ' Caixa',
-        action: () => alert('funcionando!')
+        title:'Relatorio'
     }
 
     render() {
@@ -36,9 +34,8 @@ export default class Home extends Component {
                             action={this.homeCardReleeses.action} />
                         < HomeCard {...this.homeCardBacklog} />
                         < HomeCard {...this.homeCardSpring} />
-                        < HomeCard2 title={this.homeCard2Faturas.title}
-                            text={this.homeCard2Faturas.text}
-                            action={this.homeCard2Faturas.action} />
+                        < HomeCard2 {...this.homeCard2Faturas}/>
+                           
                     </div>
                 </div>
             </div>

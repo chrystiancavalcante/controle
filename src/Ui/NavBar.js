@@ -25,9 +25,9 @@ const NavBar = (props) => {
                             Entrar
                         </a>
                         <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a className="dropdown-item" href="">Administrativo</a>
-                            <a className="dropdown-item" href="">Gerencial</a>
-                            <a className="dropdown-item" href="">Atendimento</a>
+                            <Link to='/' className="dropdown-item">Administrativo</Link>
+                            <Link to='/' className="dropdown-item" >Gerencial</Link>
+                            <Link to='/' className="dropdown-item">Atendimento</Link>
                         </div>
                     </li>
                 </ul>

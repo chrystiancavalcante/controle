@@ -4,7 +4,7 @@ export default class pedidos extends Component {
 
     render(){
         return(
-          <h1>
+          <h1 class="text-center">
               Pedidos
           </h1>
         )

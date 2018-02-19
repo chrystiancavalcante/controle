@@ -11,6 +11,7 @@ class App extends Component {
     return (
       <div>
         <NavBar logo = {logo} />
+        
        {this.props.children}
       
       </div>
