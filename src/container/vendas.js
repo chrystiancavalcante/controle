@@ -5,6 +5,11 @@ export default class vendas extends Component {
     render() {
         return (
             <div className="container" style={{paddingTop:'30px'}} >
+            <div className="container text-white bg-warning mb-3">
+              <h2 className="text-center">Cadastro de Cliente</h2>
+              </div>
+              <hr></hr>
+              <div className="container">
                 <form>
                     <div className="form-row">
                         <div className="form-group col-md-6">
@@ -21,7 +26,7 @@ export default class vendas extends Component {
                         <input type="text" className="form-control" id="inputAddress" placeholder="Av. 56" />
                     </div>
                     <div className="form-group">
-                        <label for="inputAddress2">Endereço 2</label>
+                        <label for="inputAddress2">Complemento</label>
                         <input type="text" className="form-control" id="inputAddress2" placeholder="Apartamento, studio, etc." />
                     </div>
                     <div className="form-row">
@@ -42,15 +47,10 @@ export default class vendas extends Component {
                         </div>
                     </div>
                     <div className="form-group">
-                        <div className="form-check">
-                            <input className="form-check-input" type="checkbox" id="gridCheck" />
-                            <label className="form-check-label" for="gridCheck">
-                                Gravar-me
-                            </label>
-                        </div>
                     </div>
-                    <button type="submit" className="form-control btn btn-primary">Salvar</button>
+                    <button type="button" data-toggle="modal" data-target="#myModal" className="form-control btn btn-primary">Salvar</button>
                 </form>
+              </div>
             </div>
         )
     }

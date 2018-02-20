@@ -5,13 +5,13 @@ import {hashHistory} from 'react-router'
 
 export default class Home extends Component {
     homeCardReleeses = {
-        title: 'Vendas',
-        text: 'Total do Caixa',
+        title: 'Clientes',
+        text: 'Cadastro de Cliente',
         action: () => hashHistory.push('/vendas')
     }
     homeCardBacklog = {
-        title: 'Estoque',
-        text: 'Total no Estoque',
+        title: 'Produtos',
+        text: 'Cadastro de Produtos',
         action: () => hashHistory.push('/estoque')
     }
     homeCardSpring = {
@@ -35,7 +35,6 @@ export default class Home extends Component {
                         < HomeCard {...this.homeCardBacklog} />
                         < HomeCard {...this.homeCardSpring} />
                         < HomeCard2 {...this.homeCard2Faturas}/>
-                           
                     </div>
                 </div>
             </div>

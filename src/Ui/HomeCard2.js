@@ -4,9 +4,9 @@ const HomeCard2 = (props) => {
 
     return (
 
-        <div className="col-12 col-sm-12 " style={{ paddingTop: '30px' }}>
+        <div className="col-12 col-sm-12 " style={{ paddingTop: '20px' }}>
             <div className="card">
-                <div className="card-header">
+                <div className="card-header text-white bg-warning mb-3">
                     <h2>Relátório</h2>
                 </div>
                 <table class="table table-hover">
