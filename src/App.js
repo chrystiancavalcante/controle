@@ -3,6 +3,7 @@ import logo from './logo.svg'
 import './App.css'
 import NavBar from './Ui/NavBar'
 import Home from './container/Home'
+import LoginForm from './Ui/LoginForm'
 
 
 class App extends Component {

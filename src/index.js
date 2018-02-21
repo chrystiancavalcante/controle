@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
+import LoginForm from './Ui/LoginForm'
 import App from './App'
 import Home from './container/Home'
 import vendas from './container/vendas'
@@ -19,6 +20,7 @@ ReactDOM.render(
             <Route path='/pedidos' component= { pedidos } />
             <Route path='/estoque' component= { estoque } />
         </Route>
+        <Route path='/Login' component= { LoginForm } />
     </Router>
     ,
     document.getElementById('root'))
