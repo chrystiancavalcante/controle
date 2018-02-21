@@ -19,8 +19,8 @@ ReactDOM.render(
             <Route path='/vendas' component= { vendas } />
             <Route path='/pedidos' component= { pedidos } />
             <Route path='/estoque' component= { estoque } />
+            <Route path='/Login' component= { LoginForm } />
         </Route>
-        <Route path='/Login' component= { LoginForm } />
     </Router>
     ,
     document.getElementById('root'))

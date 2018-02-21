@@ -1,5 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router'
+import LoginForm from './LoginForm'
+
 
 const NavBar = (props) => {
     return (
@@ -21,6 +23,7 @@ const NavBar = (props) => {
                     <Link to='/Login' className="nav-link">Estoque</Link>
                     </li>
                     <li className="nav-item dropdown">
+ 
                         <a className="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Entrar
                         </a>
@@ -29,6 +32,7 @@ const NavBar = (props) => {
                             <Link to='/' className="dropdown-item" >Gerencial</Link>
                             <Link to='/' className="dropdown-item">Atendimento</Link>
                         </div>
+                      
                     </li>
                 </ul>
             </div>
