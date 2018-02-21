@@ -15,7 +15,7 @@ const NavBar = (props) => {
                     <Link to='/pedidos' className="nav-link">Pedidos</Link>
                     </li>
                     <li className="nav-item">
-                    <Link to='/vendas' className="nav-link">Vendas</Link>
+                    <Link to='/vendas' className="nav-link">Cadastro de Cliente</Link>
                     </li>
                     <li className="nav-item">
                     <Link to='/estoque' className="nav-link">Estoque</Link>
