@@ -14,13 +14,13 @@ const NavBar = (props) => {
             <div className="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul className="navbar-nav">
                     <li className="nav-item active">
-                    <Link to='/Login' className="nav-link">Pedidos</Link>
+                    <Link to='/pedidos' className="nav-link">Pedidos</Link>
                     </li>
                     <li className="nav-item">
-                    <Link to='/Login' className="nav-link">Cadastro de Cliente</Link>
+                    <Link to='/vendas' className="nav-link">Cadastro de Cliente</Link>
                     </li>
                     <li className="nav-item">
-                    <Link to='/Login' className="nav-link">Estoque</Link>
+                    <Link to='/estoque' className="nav-link">Estoque</Link>
                     </li>
                     <li className="nav-item dropdown">
  
