@@ -26,7 +26,7 @@ class LoginForm extends Component {
         }
     }
 
-    static displayName = 'ui-LoginForm'
+    static displayName = 'Ui-LoginForm'
 
     componentDidMount() {
         this.verifytoken();
