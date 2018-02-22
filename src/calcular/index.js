@@ -8,7 +8,7 @@ const evolucao = (p, i, n) => Array
                                               }
                                             })
 
-app.get('/calculadora', (req, res) => {
+app.get('/vendas', (req, res) => {
   const resultado = {
     calculado: false
   }
@@ -25,7 +25,7 @@ app.get('/calculadora', (req, res) => {
       parseInt(req.query.tempo)
     )
   }
-  res.render('calculadora', { resultado })
+  res.render('vendas', { resultado })
 })
 
 const find = (db, collectionName, conditions) => {
