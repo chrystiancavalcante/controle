@@ -3,8 +3,7 @@ import logo from './logo.svg'
 import './App.css'
 import NavBar from './Ui/NavBar'
 import Home from './container/Home'
-import LoginForm from './Ui/LoginForm'
-
+import Clock from './Ui/Clock'
 
 class App extends Component {
   render() {
@@ -12,9 +11,8 @@ class App extends Component {
     return (
       <div>
         <NavBar logo = {logo} />
-        
-       {this.props.children}
-      
+        {this.props.children}
+        <Clock/>
       </div>
     )
   }
