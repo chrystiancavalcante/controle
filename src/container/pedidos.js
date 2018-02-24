@@ -13,36 +13,36 @@ export default class pedidos extends Component {
                 <form>
                     <div className="form-row">
                         <div className="form-group col-md-6">
-                            <label for="inputNome4">Nome</label>
+                            <label for="inputNome4">Produto</label>
                             <input type="name" className="form-control" id="inputNome4" placeholder="Nome" />
                         </div>
                         <div className="form-group col-md-6">
-                            <label for="inputTelefone4">Telefone</label>
+                            <label for="inputTelefone4">Qtd</label>
                             <input type="Telefone" className="form-control" id="inputTelefone4" placeholder="Telefone" />
                         </div>
                     </div>
                     <div className="form-group">
-                        <label for="inputAddress">Endereço</label>
+                        <label for="inputAddress">Descrição</label>
                         <input type="text" className="form-control" id="inputAddress" placeholder="Av. 56" />
                     </div>
                     <div className="form-group">
-                        <label for="inputAddress2">Complemento</label>
+                        <label for="inputAddress2">Valor</label>
                         <input type="text" className="form-control" id="inputAddress2" placeholder="Apartamento, studio, etc." />
                     </div>
                     <div className="form-row">
                         <div className="form-group col-md-6">
-                            <label for="inputCity">Cidade</label>
+                            <label for="inputCity">Cod.</label>
                             <input type="text" className="form-control" id="inputCity" />
                         </div>
                         <div className="form-group col-md-4">
                             <label for="inputState">Estado</label>
                             <select id="inputState" className="form-control">
-                                <option selected>Estado...</option>
+                                <option selected>Un.</option>
                                 <option>...</option>
                             </select>
                         </div>
                         <div className="form-group col-md-2">
-                            <label for="inputZip">Cep</label>
+                            <label for="inputZip">CFOP</label>
                             <input type="text" className="form-control" id="inputZip" />
                         </div>
                     </div>
