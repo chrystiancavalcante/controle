@@ -12,7 +12,9 @@ class App extends Component {
       <div>
         <NavBar logo = {logo} />
         {this.props.children}
+        <div>
         <Clock/>
+        </div>
       </div>
     )
   }
