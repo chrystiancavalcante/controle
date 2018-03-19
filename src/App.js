@@ -1,9 +1,9 @@
-import React, { Component } from 'react'
-import logo from './logo.svg'
-import './App.css'
-import NavBar from './Ui/NavBar'
-import Home from './container/Home'
-import Clock from './Ui/Clock'
+import React, { Component } from 'react';
+import logo from './logo.svg';
+import './App.css';
+import NavBar from './Ui/NavBar';
+import Home from './container/Home';
+import Clock from './Ui/Clock';
 
 class App extends Component {
   render() {
